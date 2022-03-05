@@ -5,11 +5,11 @@
 }
 
 body {
-  --background-color: #FFF;
+  --background-color: #fff;
   --input-border-color: #979797;
   --color: #000;
   --shadow-color: 0px 4px 8px rgba(0, 0, 0, 0.15);
-  --highlight-background: #FFF;
+  --highlight-background: #fff;
   --highlight-color: rgba(0, 0, 0, 0.7);
   --highlight-description: #000;
 
@@ -19,7 +19,7 @@ body {
 }
 
 .header {
-  background-color: #A785ED;
+  background-color: #a785ed;
 
   display: flex;
   justify-content: space-between;
@@ -29,13 +29,13 @@ body {
 }
 
 .header__title {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 150%;
 
-  color: #FDFDFD;
+  color: #fdfdfd;
 }
 
 .btn-theme {
@@ -78,8 +78,9 @@ body {
   box-shadow: 0px 2px 6px 6px rgba(95, 92, 92, 0.945);
 }
 
-.input, .input::placeholder {
-  font-family: 'Manrope', sans-serif;
+.input,
+.input::placeholder {
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -90,7 +91,8 @@ body {
   color: var(--input-border-color);
 }
 
-.movies-container, .movies {
+.movies-container,
+.movies {
   display: flex;
   align-items: center;
   gap: 24px;
@@ -101,11 +103,13 @@ body {
   height: 300px;
 }
 
-.btn-prev, .btn-next {
+.btn-prev,
+.btn-next {
   cursor: pointer;
 }
 
-.btn-prev:hover, .btn-next:hover {
+.btn-prev:hover,
+.btn-next:hover {
   min-width: 35px;
   min-height: 35px;
 }
@@ -142,7 +146,7 @@ body {
 }
 
 .movie__title {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -153,21 +157,21 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 
-  color: #FDFDFD;
+  color: #fdfdfd;
 }
 
 .movie__rating {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
   line-height: 150%;
 
-  color: #FBCD6E;
+  color: #fbcd6e;
 }
 
 .subtitle {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -215,27 +219,27 @@ body {
 }
 
 .highlight__title {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 150%;
 
-  color: #E183C8;
+  color: #e183c8;
 }
 
 .highlight__rating {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 150%;
 
-  color: #A785ED;
+  color: #a785ed;
 }
 
 .highlight__genre-launch {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -244,12 +248,12 @@ body {
   text-transform: uppercase;
 
   color: var(--highlight-color);
-  
+
   margin-bottom: 36px;
 }
 
 .highlight__description {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -284,13 +288,13 @@ body {
 }
 
 .modal__title {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 150%;
 
-  color: #FFFFFF;
+  color: #ffffff;
 
   margin-bottom: 40px;
 }
@@ -303,13 +307,13 @@ body {
 .modal__description {
   max-width: 730px;
 
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 150%;
-  
-  color: #FFFFFF;
+
+  color: #ffffff;
 
   margin-bottom: 20px;
 }
@@ -326,96 +330,26 @@ body {
   gap: 12px;
 }
 
-.modal__genre, .modal__average {
+.modal__genre,
+.modal__average {
   border-radius: 8px;
   padding: 10px;
 
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 150%;
-  
-  color: #FFFFFF;
+
+  color: #ffffff;
 }
 
 .modal__genre {
-  background: #E183C8;
+  background: #e183c8;
 }
 
 .modal__average {
-  background: #A785ED;
-}
-
-.info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  background-image: url("assets/questionMark.jpg");
-  background-position: center;
-  background-size: cover;
-
-  border-radius: 50%;
-  opacity: 0.4;
-
-  width: 80px;
-  height: 80px;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-}
-
-.info:hover {
-  box-shadow: 0px 2px 6px 6px var(--highlight-description);
-  cursor: pointer;
-  width: 90px;
-  height: 90px;
-  opacity: 1;
-}
-
-.modal-interrogation {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: start;
-  padding: 10px 20px 10px 20px;
-
-  background-image: url("assets/coffeeModal.jpg");
-  background-position: center;
-  background-size: cover;
-  color: rgb(252, 215, 167);
-  font-weight: 900;
-  opacity: 0.2;
-  border-radius: 30px;
-  box-shadow: 0px 2px 6px 6px black;
-
-  width: 300px;
-  height: 500px;
-  position: fixed;
-  bottom: 100px;
-  right: 100px;
-}
-
-.modal-interrogation:hover {
-  opacity: 1;
-}
-
-.modal-interrogation h3 {
-  margin-bottom: 10px;
-}
-
-.modal-interrogation h4 {
-  margin-bottom: 10px;
-}
-.modal-interrogation span {
-  margin-bottom: 40px;
-}
-
-.modal-interrogation p {
-  width: 200px;
-  font-size: 14px;
-  margin-bottom: 10px;
+  background: #a785ed;
 }
 
 .busca-zero {
