@@ -11,6 +11,6 @@
 - Parte da estrutura html foi gerado dinâmicamente, através do javascript.
 
 ## Como visualizar o projeto:
-  ### Como é um projeto simples, apenas com javascript puro, não vai ser necessária a instalação de nenhuma dependência ou pacote, framework ou biblioteca.
+  ### O projeto é simples, apenas com javascript puro, não vai ser necessária a instalação de nenhuma dependência ou pacote, framework ou biblioteca.
     - Baixe o repositório localmente
     - Simplesmente execute o arquivo "index.html" no seu navegador
