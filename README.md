@@ -9,3 +9,8 @@
 - Paginação da lista de filmes.
 - Modal de detalhamento do filme após clique em seu respectivo poster, com tags de gênero.
 - Parte da estrutura html foi gerado dinâmicamente, através do javascript.
+
+## Como visualizar o projeto:
+  ### Como é um projeto simples, apenas com javascript puro, não vai ser necessária a instalação de nenhuma dependência ou pacote, framework ou biblioteca.
+    - Baixe o repositório localmente
+    - Simplesmente execute o arquivo "index.html" no seu navegador
