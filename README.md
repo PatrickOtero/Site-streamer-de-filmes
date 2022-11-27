@@ -1,4 +1,4 @@
-# Site de streaming de vídeo
+# Um simulador de site streamer de filmes
 
 ## Um site simples com informações de filmes, seus posteres e suas sinopses.
 
