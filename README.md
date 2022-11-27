@@ -19,3 +19,5 @@
 ## Como visualizar o projeto localmente:
     - Baixe o repositório localmente
     - Simplesmente execute o arquivo "index.html" no seu navegador
+
+### Obrigado pela boa vontade
