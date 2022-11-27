@@ -1,6 +1,6 @@
 # Site de streaming de vídeo
 
-## Este foi o segundo desafio de front-end do curso de Desenvolvimento de Softwares da Cubos Academy.
+## Um site simples com informações de filmes, seus posteres e suas sinopses.
 
 ### Características do projeto
 
@@ -11,6 +11,5 @@
 - Parte da estrutura html foi gerado dinâmicamente, através do javascript.
 
 ## Como visualizar o projeto:
-  ### O projeto é simples, apenas com javascript puro, não vai ser necessária a instalação de nenhuma dependência ou pacote, framework ou biblioteca.
     - Baixe o repositório localmente
     - Simplesmente execute o arquivo "index.html" no seu navegador
