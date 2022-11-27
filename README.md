@@ -10,6 +10,12 @@
 - Modal de detalhamento do filme após clique em seu respectivo poster, com tags de gênero.
 - Parte da estrutura html foi gerado dinâmicamente, através do javascript.
 
-## Como visualizar o projeto:
+## Tela home
+<img src="./mdAssets/moviesHome.jpg">
+
+## Modal de sinopse de filme
+<img src="./mdAssets/moviesModalDeDetalhamento.jpg">
+
+## Como visualizar o projeto localmente:
     - Baixe o repositório localmente
     - Simplesmente execute o arquivo "index.html" no seu navegador
